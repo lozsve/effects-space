@@ -5,12 +5,12 @@ module.exports = {
     node: true,
     es2021: true
   },
-  parser: 'vue-eslint-parser',
   extends: [
     'plugin:vue/vue3-strongly-recommended',
     'plugin:@typescript-eslint/recommended',
     '.eslintrc-auto-import.json'
   ],
+  parser: 'vue-eslint-parser',
   parserOptions: {
     ecmaVersion: 'latest',
     parser: '@typescript-eslint/parser',
