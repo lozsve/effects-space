@@ -1,7 +1,12 @@
 <template>
-  <div>effect-collection</div>
+  <router-view></router-view>
 </template>
 
-<script setup lang="ts"></script>
+<style lang="scss">
+@import '@/styles/flex.css'; /* flex 布局 */
+@import '@/styles/normalize.css'; /* 重置样式 */
 
-<style></style>
+#nprogress .bar {
+  background: $color-primary !important;
+}
+</style>
